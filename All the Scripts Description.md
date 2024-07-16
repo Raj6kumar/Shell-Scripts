@@ -29,7 +29,7 @@
 - echo "$SERVICE is running": Prints a message if the service is running.
 - systemctl start $SERVICE: Starts the service if it is not running.
 
-## 7. Listening Ports Script
+## 4. Listening Ports Script
 
 Installation
 Install net-tools:
@@ -40,7 +40,7 @@ sudo apt install net-tools
 - netstat -tuln: Lists all TCP and UDP listening ports.
 - grep LISTEN: Filters the output to show only listening ports.
 
-## 8. Automatic Package Updates Script
+## 5. Automatic Package Updates Script
 
 ## Explanation
 - apt-get update: Updates the package list.
@@ -49,7 +49,7 @@ sudo apt install net-tools
 - apt-get clean: Cleans up the package cache.
 - echo "System packages updated and cleaned up": Outputs a message indicating the completion of the update and cleanup.
 
-## 5. Database Backup Script
+## 6. Database Backup Script
 Installation
 Install MySQL:
 sudo apt install mysql-server
